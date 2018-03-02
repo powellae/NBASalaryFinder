@@ -1,0 +1,38 @@
+
+body {
+	background-color: gray;
+	margin: 0 auto;
+	min-width: 400px;
+	max-width: 960px;
+}
+
+#page {
+	text-align: center;
+}
+
+.col-sm-4 {
+	text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: white;
+    
+    
+}
+
+th {
+	background-color: red;
+}
+
+.salary {
+	text-align: right;
+	color: blue;
+	column-width: 150px;
+}
+
+.name-col {
+	column-width: 200px;
+}
+

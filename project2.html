@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<!-- Bootstrap core CSS -->
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="project2.css">
+    
+    		
+		<title></title>
+	</head>
+	<body>
+	
+	<div class="col-sm-2"> </div>
+	
+	<div class="col-sm-8">
+	<h3> NBA Salary Lookup By Year </h3>
+	<h5 font=white> Look up every NBA team by 3 letter city code (i.e. "ATL" = Atlanta or "CLE" = Cleveland) and a year to see
+	the team payroll for that season</h5>
+	<hr>
+		<div class = "col-sm-4">
+			<p>Team</p>
+			<input name = "team" type = "text" id = "team" maxlength = "3">
+			<p> 
+				<input type = "button" id = "button" onclick = "javascript: lookup()" name = "submit" value = "Submit">
+			</p>
+		</div>
+		<div class = "col-sm-4">
+			<p>Year</p>
+			<input name = "year" type = "text" id = "year" maxlength = "4">
+		</div>
+		
+	<hr>
+	
+	<div class = "nav-bar">
+		<ul>
+			<li class="btn-group" data-toggle="dropdown" role="button">
+				<ul class="dropdown-menu" id="booklist" role="menu">
+				</ul>
+			</li>
+		</ul>
+	</div>
+	
+	<div id = "content">
+	
+	</div>
+	
+	</div>
+		
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	  <script src="/bootstrap/js/bootstrap.min.js"></script>
+	  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	  <script src="/assets/ie10-viewport-bug-workaround.js"></script>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>
+	  <script src="project2.js" type="text/javascript"></script>
+	</body>
+</html>
